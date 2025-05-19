@@ -1,0 +1,88 @@
+/* Reset simplu */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #121212;
+  color: #eee;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Navbar */
+nav {
+  background-color: #222;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.8);
+}
+
+nav a {
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 25px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-bottom: 4px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+nav a:hover {
+  color: #FF8C42;
+  border-bottom: 3px solid #FF8C42;
+}
+
+/* Link activ */
+nav a.active {
+  color: #FF8C42;
+  border-bottom: 3px solid #FF8C42;
+  font-weight: 700;
+}
+
+/* Titluri pagini */
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #FF8C42;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+/* Paragrafe */
+p {
+  font-size: 1.1rem;
+  color: #ddd;
+  margin-bottom: 15px;
+}
+
+/* Imagini */
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 0 12px rgba(255,140,66,0.5);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #666;
+  margin: 60px 0 20px 0;
+  font-size: 0.9rem;
+}
